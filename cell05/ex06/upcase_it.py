@@ -10,4 +10,7 @@ else:
 """
 cd cell05/ex06
 python upcase_it.py
+python upcase_it.py initiation
+python upcase_it.py "This exercise is quite easy!"
+
 """
