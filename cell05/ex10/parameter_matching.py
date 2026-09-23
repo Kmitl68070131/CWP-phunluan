@@ -13,8 +13,3 @@ def main():
     else:
         print("Nope, sorry...")
 main()
-
-"""
-python parameter_matching.py "Hello"
-
-"""
