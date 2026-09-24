@@ -1,5 +1,4 @@
 def find_the_redheads(family):
-
     redheads = filter(lambda name: family[name] == "red", family)
     return list(redheads)
 

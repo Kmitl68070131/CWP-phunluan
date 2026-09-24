@@ -58,7 +58,6 @@ def checkmate(board):
                 r, c = b_r + step_r, b_c + step_c
                 blocked = False
                 
-                # แก้ไขเงื่อนไขการวนลูปจนกว่าจะถึงตำแหน่ง King
                 while (r, c) != (king_r, king_c):
                     if table[r][c] not in ('.', ' '):
                         blocked = True

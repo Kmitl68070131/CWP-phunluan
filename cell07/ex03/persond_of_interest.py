@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 def famous_births(people):
     sorted_people = sorted(people.values(), key=lambda person: int(person['date_of_birth']))
     for person in sorted_people:
