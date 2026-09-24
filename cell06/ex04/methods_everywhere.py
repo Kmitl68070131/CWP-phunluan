@@ -1,4 +1,3 @@
-
 import sys
 
 def shrink(s):
@@ -20,6 +19,5 @@ def main():
             enlarge(arg)
         else:
             print(arg)
-
 
 main()
